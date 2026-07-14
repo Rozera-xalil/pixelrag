@@ -1,4 +1,4 @@
- MDLocal PixelRAG — Chat With Your Own PDFs and reportss
+ MDLocal PixelRAG — Chat With Your Own PDFs and reports
 
 A small, self-contained Jupyter notebook that lets you ask questions over your own PDFs and reports using a PixelRAG-style pipeline — no text extraction, no chunking, no OCR. Every page is rendered as an image and read visually, tables, charts, and layout included.
 
