@@ -4,7 +4,7 @@ A small, self-contained Jupyter notebook that lets you ask questions over your o
 
 Built on top of the ideas behind PixelRAG (Berkeley SkyLab / BAIR / Berkeley NLP), but running fully locally over your own private documents instead of the hosted Wikipedia index.
 
-Why
+Why?!
 
 Traditional RAG pipelines parse PDFs into text, chunk that text, and embed the chunks. That process is blind to anything visual: tables get flattened, charts disappear, and multi-column layouts turn into scrambled text. This project skips text extraction entirely. Pages are rendered as images and handed straight to a vision-language model, the same way a person would actually read them.
 
