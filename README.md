@@ -76,7 +76,7 @@ All the knobs live in the config cell near the top of the notebook:
 
 VariableDefaultPurposePDF_DIR./my_pdfsFolder containing your source PDFsRENDER_DPI150Rasterization resolution — higher is sharper but slower and more expensive per queryMAX_TILE_HEIGHT_PX1600Height threshold before a page gets sliced into multiple tiles
 
-Known limitations
+Known limitations!!!
 
 
 Fixed-height tiling has no content awareness. A table or paragraph that straddles a tile boundary can get cut in half. For normal single-page-sized PDFs this rarely matters, since one page usually fits in one tile.
